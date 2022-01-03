@@ -9,6 +9,7 @@ namespace Module.XF.ViewModels
     public class ViewAViewModel : BindableBase
     {
         private string _title;
+
         public string Title
         {
             get { return _title; }
