@@ -8,8 +8,8 @@ namespace FullApp.Modules.ModuleName.Tests.ViewModels
 {
     public class ViewAViewModelFixture
     {
-        Mock<IMessageService> _messageServiceMock;
-        Mock<IRegionManager> _regionManagerMock;
+        readonly Mock<IMessageService> _messageServiceMock;
+        readonly Mock<IRegionManager> _regionManagerMock;
         const string MessageServiceDefaultMessage = "Some Value";
 
         public ViewAViewModelFixture()
